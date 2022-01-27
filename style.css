@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Inter:wght@400;800&family=Montserrat:wght@700&family=Poppins:wght@200&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+
 body {
     box-sizing: border-box;
     width: auto;
@@ -16,4 +18,33 @@ body {
   height: auto;
   top: 0;
   z-index: -1;
+}
+
+.first-layout {
+  margin-top: 10%;
+  width: 0 auto;
+  text-align: center;
+}
+
+.paragraph {
+  width: 0 auto;
+  text-align: center;
+}
+
+.hey-there {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 60px;
+  text-align: center;
+
+}
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-right: 15%;
 }
