@@ -1,0 +1,19 @@
+body {
+    box-sizing: border-box;
+    width: auto;
+    margin: 0 auto;
+}
+
+/* header {
+  background-image: url('desktop-images/Header-llustration-desktop.svg');
+  background-repeat: no-repeat;
+  height: 1434px;
+} */
+
+.background-image {
+  width: 100%;
+  position: absolute;
+  height: auto;
+  top: 0;
+  z-index: -1;
+}
