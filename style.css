@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Inter:wght@400;800&family=Montserrat:wght@700&family=Poppins:wght@200&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Inter:wght@400;800&family=Montserrat:wght@700&family=Poppins:wght@200;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+
 
 body {
-    box-sizing: border-box;
-    width: auto;
+    box-sizing: content-box;
+    width: 0 auto;
     margin: 0 auto;
 }
 
@@ -39,7 +41,6 @@ body {
   font-style: normal;
   line-height: 60px;
   text-align: center;
-
 }
 
 .items {
@@ -50,7 +51,57 @@ body {
 }
 
 h3 {
-
+  margin-top: 40%;
+  margin-bottom: 10%;
   align-items: center;
   text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #172b4d;
+}
+
+.text-center {
+font-family: 'Poppins',sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.section-card-btn {
+font-family: 'Inter', sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+text-align: center;
+}
+
+.btn-color .btn {
+  background: #ebf0ee;
+  padding: 0.2rem;
+  margin-right: 3px;
+}
+
+.last-cards {
+  margin-top: 10%;
+  background-image: url('desktop-images/Section-cards2.png');
+}
+
+.last-para {
+  width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #42526e;
 }
