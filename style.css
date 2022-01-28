@@ -48,3 +48,9 @@ body {
   list-style: none;
   margin-right: 15%;
 }
+
+h3 {
+
+  align-items: center;
+  text-align: center;
+}
