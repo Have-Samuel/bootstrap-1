@@ -118,3 +118,34 @@ font-weight: 500;
 .hudol-image {
   z-index: -8;
 }
+
+.container-fluid {
+  padding: 0 13%;
+}
+
+.nav-item{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.about_items {
+  margin: 20px 0;
+}
+
+.about_img{
+  width: 55px;
+  margin: 80px 0;
+}
+
+.info_container {
+  margin: 0 6px;
+}
+ .sup_about {
+   width: 60%;
+   font-size: 20px;
+ }
+
+ .sup_container {
+   align-items: center;
+   justify-content: center;
+ }
