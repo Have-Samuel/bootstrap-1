@@ -9,6 +9,10 @@ body {
     margin: 0 auto;
 }
 
+section {
+  margin-bottom: 50px;
+}
+
 /* header {
   background-image: url('desktop-images/Header-llustration-desktop.svg');
   background-repeat: no-repeat;
@@ -149,4 +153,12 @@ font-weight: 500;
    align-items: center;
    justify-content: center;
    padding: 40px 0;
+ }
+
+ .form_container {
+   width: 95%;
+ }
+
+ #message {
+   width: 100%;
  }

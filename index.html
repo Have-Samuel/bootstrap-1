@@ -222,30 +222,32 @@
   </div>
 </section> 
 
-<section class="contact">
-  <div class="form_container">
-    <div class="form_text">
+<section class="contact container text-center">
+  <div class="form_container row align-items-center">
+    <div class="form_text col">
+      <div class="align-middle">
       <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
     </div>
-    <form action="https://formspree.io/f/xqknednn" method="post">
-      <ul class="f_name">
-        <li>
-          <input aria-label="Name" type="text" id="name" name="Name" placeholder="First name" maxlength="30" required>
-        </li>
-       
-        <li>
-          <input type="text" id="last_name" name="Name" placeholder="Last name" maxlength="30" required>
-        </li>
-        <li>
-          <input type="email" id="email" name="E-mail" placeholder="Email address" required>
-        </li>
-        <li>
+    </div>
+    <form action="https://formspree.io/f/xqknednn" method="post" class="col">
+      <div class="row g-3 align-items-star justify-content-start">
+        <div class="col-md-7">
+          <input class=" form-control" aria-label="Name" type="text" id="name" name="Name" placeholder="First name" maxlength="30" required>
+        </div>
+        <div class="col-md-5">
+          <input class="form-control" type="text" id="last_name" name="Name" placeholder="Last name" maxlength="30" required>
+        </div>
+        <div class="col-md-12">
+          <input class="form-control" type="email" id="email" name="E-mail" placeholder="Email address" required>
+        </div>
+        <div class="col-md-12">
           <textarea id="message" cols="40" rows="10" maxlength="500" required></textarea>
-        </li>
-        <li class="button">
-          <button type="submit" class="project_btn">Get in touch</button>
-        </li>
-      </ul>
+        </div>
+        <div class="button">
+          <button type="submit" class="project_btn btn btn-success">Get in touch</button>
+        </div>
+        </div>
+      
     </form>
   </div>
 </section>
