@@ -148,4 +148,5 @@ font-weight: 500;
  .sup_container {
    align-items: center;
    justify-content: center;
+   padding: 40px 0;
  }
