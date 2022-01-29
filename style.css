@@ -83,10 +83,6 @@ font-weight: 500;
 
 }
 
-.btn-color {
-  
-}
-
 .btn-color .btn {
   background: #ebf0ee;
   padding: 0.2rem;
@@ -118,8 +114,6 @@ font-weight: 500;
   margin-bottom: 5%;
 }
 
-.grouping-cards .card-body{
-  background-image: url('desktop-images/Section-cards2.png');
-
- 
+.hudol-image {
+  z-index: -8;
 }
